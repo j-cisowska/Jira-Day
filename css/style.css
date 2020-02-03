@@ -1,0 +1,1334 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates');
+
+* {
+	margin: 0;
+	padding: 0;  
+}
+
+body {
+    font-family: 'Montserrat Alternates', sans-serif;  
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto; 
+    position: relative;
+    overflow-x: hidden;
+    overflow-y: hidden;    
+}
+
+/********************************************GRID**********************************************/
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+[class*="col-"] {
+	float: left;
+	min-height: 1px;
+	padding: 0px;	
+}
+
+.col-xl-1 {width: 8.33%;}
+.col-xl-2 {width: 16.66%;}
+.col-xl-3 {width: 25%;}
+.col-xl-4 {width: 33.33%;}
+.col-xl-5 {width: 41.66%;}
+.col-xl-6 {width: 50%;}
+.col-xl-7 {width: 58.33%;}
+.col-xl-8 {width: 66.66%;}
+.col-xl-9 {width: 75%;}
+.col-xl-10 {width: 83.33%;}
+.col-xl-11 {width: 91.66%;}
+.col-xl-12 {width: 100%;}
+
+
+.col-offset-1 {margin-left: 8.33%;}
+.col-offset-2 {margin-left: 16.66%;}
+.col-offset-3 {margin-left: 25%;}
+.col-offset-4 {margin-left: 33.33%;}
+.col-offset-5 {margin-left: 41.66%;}
+.col-offset-6 {margin-left: 50%;}
+.col-offset-7 {margin-left: 58.33%;}
+.col-offset-8 {margin-left: 66.66%;}
+.col-offset-9 {margin-left: 75%;}
+.col-offset-10 {margin-left: 83.33%;}
+.col-offset-11 {margin-left: 91.66%;}
+
+/***********************************************************HEADER*****************************************************/
+
+header {
+    background-color: #1b1463;
+    height: 80px;
+}
+
+header .logo {
+    padding: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+
+header nav {
+    float: right;
+    margin-top: 10px;
+    height: 50px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 20px; 
+}
+
+/********************************************************HERO***************************************************************************/
+
+
+.hero {
+    background-color: #1b1463;
+}
+
+.heroline {  
+    width: 100%;
+    margin-right: -50%;
+    opacity: 0.16;
+    border-radius: 2px;
+    border-top: 2px solid #aab4bf;
+    margin: 1em auto;
+    position: absolute;
+}
+
+.slogan {
+    text-align: left;
+    margin-top: 360px;
+    margin-left: 110px;
+    position: absolute;
+}
+
+.slogan_circle {
+    margin-top: 320px;
+    margin-left: 46px;
+}
+
+.eventdate {
+    width: 520px;
+    height: 72px;
+    margin-left: 110px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #ffffff;
+}
+
+.herophoto {
+    margin: 10px 0px 100px 45px;
+}
+
+.play_btn {
+    position: absolute;
+    margin-left: 420px;
+    top: 400px;
+    cursor: pointer;
+}
+
+/*****************************************TIMER***********************************************/
+
+.timer {
+    background-color: #1b1463;
+    height: 406px;
+    text-align: center; /*used here and in h1 because h1 isn't only there*/
+}
+
+h1 {
+    height: 64px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.underline {
+    padding: 4px;
+    border-bottom: 2px solid #ff4b1f;
+    border-radius: 1px;
+}
+
+#counter {
+    height: 56px;
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    color: #ffffff;
+    margin-top: 82px;
+    letter-spacing: 8px;
+}
+
+.clock {
+    position: absolute;
+    display: inline;
+    margin-top: 30px;
+    margin-left: 410px;
+}
+
+.clock_circle {
+    margin-top: 15px;
+    margin-left: 900px;
+    display: inline;
+}
+
+/************************************************FORM*************************************************/
+
+.form {
+   background-color: #1b1463;
+    height: 506px; 
+}
+
+.mail {
+    position: absolute;
+    display: inline;
+    margin: 97px 0px 0px 181px;
+}
+
+.mail_circle {
+    margin: 76px 0px 0px 120px;
+    display: inline;
+}
+
+.form_text {
+    width: 584px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    margin: 97px auto 0px auto;
+}
+
+#signUpForm {
+    text-align: center;
+    margin: 10px 16px 0px 0px;
+    padding: 20px;
+}
+
+.input {
+    width: 50%;
+    height: 50px;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom: 2px solid #241d72;
+    font-size: 16px;
+}
+
+#sendButton {
+    width: 139px;
+    height: 56px;
+    border-radius: 28px;
+    background-color: #ff4b1f;
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 32px;   
+}
+
+.check {
+    margin-top: 30px;
+}
+
+.checkbox { 
+    width: 25px;
+    height: 25px;
+    border-radius: 4px;
+    margin: 5px 0px 0px 150px;
+    float: left;
+}
+
+.check_text {
+    height: 30px;
+    width: 900px;
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 5;
+    color: #8d89b1;
+}
+
+.check_text a {
+    color: #ffffff;
+}
+
+/****************************************************WHY IS IT WORTH*****************************************************/
+
+.worth {
+    height: 990px;
+    background-color: #ffffff;
+}
+
+h2 {
+    height: 64px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #1a1a1a;
+    text-align: center;
+    margin-top: 50px;   
+}
+
+.tick_one /*tick on the left side*/ {
+    position: absolute;
+    margin: 82px 0px 0px 42px;
+}
+
+.worthphoto /*photo on the left side*/ {
+    margin: 114px 0px 0px 80px;
+}
+
+.text1, .text2, .text3, .text4 {
+    width: 520px;
+}
+
+.text1 /*bold text on the left side*/{
+    margin-top: 32px;
+    margin-left: 80px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+.text2 /*normal text on the left side*/ {
+    margin: 24px 0px 0px 80px;
+    font-size: 14px;
+    line-height: 2.29;
+    color: #737373;
+}
+
+.tick_two /*tick on the right side*/ {
+    position: absolute;
+    display: inline;
+    margin-top: 146px;
+    margin-left: 85px;   
+}
+
+.worthphoto2 /*photo on the right side*/ {
+    display: inline;
+    margin: 178px 0px 0px 120px; 
+}
+
+.text3 /*bold text on the right side*/ {
+    float: right;
+    margin: 32px 80px 0px 0px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+.text4 /*normal text on the right side*/ {
+    float: right;
+    margin: 24px 80px 0px 0px;
+    font-size: 14px;
+    line-height: 2.29;
+    color: #737373;
+}
+
+/********************************************SPEAKERS***********************************************/
+
+
+.speakers {
+    background-color: #f9f6f2;
+    height: 715px;
+}
+
+h3 {
+    margin-top: 50px;
+    text-align: center;
+    height: 64px;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.33;
+    color: #1a1a1a;    
+}
+   
+.orangecircle {
+    width: 384px;
+    height: 384px;
+}
+
+.speaker {
+    position: absolute;
+    height: auto;
+    margin-left: 220px;   
+}
+
+.speakertext1, .sepakertext2 {
+    width: 520px;
+    color: #1a1a1a;
+    line-height: 2;
+    font-size: 16px;
+}
+
+.speakertext1 /*normal text*/ {
+    height: 128px;
+    margin-top: 114px;
+}
+
+.speakertext2 /*bold text*/ {
+    font-weight: bold;
+    margin-top: 32px;
+}
+
+.speaker_btn {
+    margin-top: 32px;
+    width: 255px;
+    height: 56px;
+    border-radius: 28px;
+    border: none;
+    background-color: #ff4b1f;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.speaker_btn a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.megaphone {
+    margin: 40px 0px 0px 405px;
+    position: absolute;
+    display: inline;
+}
+
+.megaphone_circle {
+    opacity: 0.48;
+    display: inline;
+    margin-left: 440px;
+}
+
+/******************************************************AGENDA************************************************************/
+
+/****************************FIRST DAY****************************/
+.agenda {
+    height: 1450px;
+}
+
+.day_1, .day_2, .break, .block {
+    margin-top: 32px;
+    width: 520px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: #1a1a1a;
+}
+
+.day_1 /* wednesday */{
+    margin-left: 30px;
+}
+
+.day_2 /* thursday */{ 
+    margin-left: 126px;
+}
+
+.date {
+    width: 520px;
+    font-size: 14px;
+    line-height: 2.29;
+    color: #737373;
+}
+
+.agenda_hr /*break line*/ {
+    height: 2px;
+    border-radius: 2px;
+    background-color: #e1e1e1;
+    border: none;
+}
+
+ .agenda_tab {
+     margin-top: 10px;
+     border-spacing: 10px;
+}
+
+th /* program + lecturer*/ {
+    text-align: left;
+    width: 190px;
+}
+
+td {
+    text-align: justify;
+    padding: 10px;  
+}
+
+.agenda_program {
+    font-weight: bold;
+}
+
+
+/**********************************SECOND DAY*************************************/
+
+/*container on the right*/
+
+.secondday_icon {
+    margin: 153px 0px 0px 96px;
+}
+
+.break, .block {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.day2_column {
+    margin-left: 70px;
+}
+
+.time_color {
+    color: #ff4b1f;   
+}
+
+/*****************************************************PARTNERS***********************************************************/
+
+.partners {
+    background-color: #1b1463;
+}
+
+/*did it with the flexbox because it was the easiest way in my opinion*/
+
+.flex_container {
+    display: flex;
+    display: -webkit-flex; /* Safari 8 */
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;   /* Safari 8 */
+    justify-content: center; 
+    -webkit-justify-content: center;  /* Safari 8 */
+    margin-top: 82px;
+}
+
+.group_img { 
+    width: 276px;
+    height: 138px;
+    border-radius: 8px;
+    margin: 28px;
+}
+
+.handshake {
+    margin: 61px 0px 0px 191px;
+    position: absolute;
+    display: inline;
+}
+
+.handshake_circle {
+    margin: 64px 0px 0px 120px;
+    display: inline;
+}
+
+.partner_text1, .partner_text2 {
+    width: 584px;
+    color: #ffffff;
+}
+
+.partner_text1 /* first <p> text, bold one text */{
+    margin-top: 80px;
+    height: 72px;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.5;  
+}
+
+.partner_text2 /* second <p> text, normal text */ {
+    margin-top: 32px;
+    height: 64px;
+    font-size: 16px;
+    line-height: 2;
+}
+
+.partner_btn {
+    width: 250px;
+    height: 56px;
+    margin: 32px 0px 20px 0px;
+    border-radius: 28px;
+    background-color: #ff4b1f;
+    border: none;
+    font-size: 16px;
+    line-height: 3.5;
+    cursor: pointer;
+}
+
+.partner_btn a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+/********************************************HOW WAS IT IN 2018********************************************************/
+
+.lastyear {
+    background-color: #f9f6f2;
+}
+
+li {
+    list-style-type: none;
+}
+
+.event_1, .event_2 {
+    font-weight: bold;
+    color: #1a1a1a;
+}
+
+.event_1 /* text on the left side */ {
+    width: 520px;
+    height: 160px;
+    font-size: 20px;
+    line-height: 2;
+    margin: 82px 0px 0px 152px;
+}
+
+.numbers, .list {
+    color: #ff4b1f;
+}
+
+.event_2 /* text on the right side */ {
+    width: 496px;
+    height: 312px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 146px 0px 0px 120px;
+}
+
+.presentation{
+    margin: 69px 0px 0px 194px;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    display: inline;
+}
+
+.presentation_circle {
+    margin: 50px 0px 120px 120px;
+    opacity: 0.48;
+    display: inline;
+}
+
+/**************************OWL carousel/slider************************/
+
+.owl-nav button span {
+    color: #ff4b1f;
+    background-color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50%;
+}
+
+.owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+}
+
+.owl-next {
+    right: 0px;
+}
+
+/**************************BUTTON UNDER SLIDER*****************/
+
+.gallery_btn {
+    margin: 0 auto; 
+    width: 225px;
+    border-radius: 28px;
+    background-color: #ff4b1f;
+    font-size: 16px;
+    line-height: 3.5;
+    border: none;
+    cursor: pointer;
+    margin-top: 32px;
+    display: block;
+}
+
+.gallery_btn a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/**************************PHOT IMAGE + CIRCLE IMAGE*****************/
+
+.camera {
+    margin: 32px 0px 0px 1070px;
+    position: absolute;
+    display: inline;
+}
+
+.camera_circle {
+    display: inline;
+    margin: 16px 0px 0px 1090px;
+    opacity: 0.48;
+}
+
+/***************************************FOOTER********************************************************/
+
+.footer {
+  height: 240px;
+  background-color: #ff4b1f;
+}
+
+/*****************************************RWD********************************************************/
+
+@media (max-width: 1214px) {
+/*********************FOR TABLETS/LAPTOPS**************************/
+    .col-md-1 {width: 8.33%;}
+    .col-md-2 {width: 16.66%;}
+    .col-md-3 {width: 25%;}
+    .col-md-4 {width: 33.33%;}
+    .col-md-5 {width: 41.66%;}
+    .col-md-6 {width: 50%;}
+    .col-md-7 {width: 58.33%;}
+    .col-md-8 {width: 66.66%;}
+    .col-md-9 {width: 75%;}
+    .col-md-10 {width: 83.33%;}
+    .col-md-11 {width: 91.66%;}
+    .col-md-12 {width: 100%;}
+    
+ /******************************HERO******************************/  
+    
+    .slogan {
+        margin-top: 115px;
+        height: 64px;
+    }
+        
+    .slogan_circle {
+        margin-top: 60px;
+        width: 128px;
+        height: 128px;
+    }
+        
+    .eventdate {
+        width: 280px;
+        font-size: 16px;  
+    }
+    
+    .herophoto {
+        float: right;
+        height: 700px;
+    }
+        
+    .play_btn {
+        height: 110px;
+        margin-left: 635px;
+        top: 570px;
+    }
+        
+   /*********************************TIMER*************************/
+        
+    h1 {
+        font-size: 42px;
+    }
+        
+    #counter {
+        font-size: 32px;
+        margin-top: 12px;
+    }
+    
+    .clock {
+        margin: 28px 0px 0px 260px;
+    }
+    .clock_circle {
+        margin: 15px 0px 15px 600px;
+        width: 58px;
+        height: 58px;
+    }
+ /***********************************FORM************************************/
+    
+    .form {
+     height: 100%;
+    } 
+    
+    .formtext {
+        font-size: 20px;
+        width: 289px;
+        margin-top: 32px; 
+    }
+        
+    .mail {
+        margin: 17px 0px 0px 75px;
+    }
+        
+    .mail_circle {
+        margin: 10px 0px 0px 39px;
+        height: 128px;
+        width: 128px;
+    }
+    
+    .input {
+        width: 296px;
+        height: 56px;
+    }
+        
+    #sendButton {
+        width: 160px;
+        margin-top: 16px;
+    }
+        
+    .check {
+        margin-top: 30px;
+    }
+        
+    .checkbox { 
+        width: 20px;
+        height: 20px;
+        margin-left: 120px;
+    }
+
+    .check_text {
+        height: 32px;
+        width: 100%;
+        font-size: 9px;
+    }
+        
+    /***********************************************WHY IT'S WORTH**************************************/
+    
+    .worth {
+        height: 100%;
+    }
+    
+    h2 {
+        height: 48px;
+        font-size: 42px;
+        margin-top: 64px;
+    }
+    
+    .tick_one {
+        margin: 50px 0px 0px 290px;
+    }
+    
+    .worthphoto {
+        width: 396px;
+        margin: 80px 0px 0px 310px;
+    }
+    
+    .text1 {
+        width: 396px;
+        height: 64px;
+        margin: 24px auto 0px auto;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    
+    .text2 {
+        width: 396px;
+        height: 224px;
+        margin: 16px auto 0px auto;
+        font-size: 14px;
+        line-height: 2.29;
+    }
+    
+    .tick_two {
+        margin: 0px 0px 0px 290px;
+    }
+    
+    .worthphoto2 {
+        width: 396px;
+        margin: 24px 0px 0px 310px;
+        float: none;
+    }
+    
+    .text3 {
+        width: 396px;
+        height: 64px;
+        margin: 24px auto 0px auto;
+        font-size: 20px;
+        line-height: 1.6;
+        float: none;
+    }
+    .text4 {
+        width: 396px;
+        height: 224px;
+        margin: 16px auto 0px auto;
+        font-size: 14px;
+        line-height: 2.29;
+        float: none;
+    }
+     /***********************************************SPEAKERS**************************************/
+        
+    h3 {
+        height: 48px;
+        font-size: 42px;
+        line-height: 1.5;
+    }
+    
+    .orangecircle {
+        display: none;
+    }
+    
+    .speaker {
+        display: none;
+    }
+    
+    .speakertext1 {
+        width: 396px;
+        height: 192px;
+        margin: 48px auto 0px auto;
+    }
+    
+    .speakertext1, .speakertext2 {
+        font-size: 16px;
+        line-height: 2;
+    }
+    
+    .speakertext2 {
+        width: 396px;
+        height: 64px;
+        margin: 12px auto 0px auto; 
+    }
+    
+    .speaker_btn {
+        width: 196px;
+        height: 56px;
+        margin: 12px 0px 0px 310px;
+        font-size: 16px;
+    }
+    
+    .megaphone {
+        margin: 55px 0px 0px 640px;
+    }
+    
+    .megaphone_circle {
+        width: 96px;
+        height: 96px;
+        margin: 32px 20px 0px 680px;
+    }
+        
+/***************************************AGENDA***************************************/
+    
+    .agenda {
+        height: 100%;
+    }
+    
+    .day_1, .day_2 {
+        width: 296px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+    
+    .day_1 {
+        margin: 24px 0px 0px 30px;
+    }
+    
+    .day_2 {
+        margin: 32px 0px 0px 30px;
+    }
+    
+    .date {
+        width: 296px;
+        font-size: 14px;
+        line-height: 2.29;
+    }
+       
+    .agenda_tab {
+        margin-top: 20px;
+        border-spacing: none;
+        width: 100%;
+        font-size: 14px;
+    }
+    
+    th {
+        text-align: left;
+        width: 286px;
+    }
+    
+    td {
+        text-align: justify;
+        padding: 10px; 
+        width: 296px;
+    }
+    
+    .secondday_icon {
+        margin: 45px 0px 0px 0px;
+    }
+    
+    .break, .block {
+        width: 296px;
+        height: 16px;
+        font-size: 16px;
+        line-height: 2;
+        margin: 10px;
+    }
+    
+    .day2_column {
+        margin-left: 0px;
+    }
+
+  /********************************************PARTNERS***************************************/
+    
+    .flex_container {
+        margin-top: 16px;
+    }
+    
+    .group_img { 
+        width: 164px;
+        height: 82px;
+        margin: 16px;
+    }
+    
+    .handshake {
+        margin: 45px 0px 0px 90px;
+    }
+    
+    .handshake_circle {
+        margin: 34px 0px 0px 50px;
+    }
+    
+    .partner_text1, .partner_text2 {
+        width: 396px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .partner_text1 {
+        margin-top: 32px;
+        height: 96px;
+        font-size: 20px;
+        line-height: 1.6; 
+    }
+    
+    .partner_text2 {
+        margin-top: 14px;
+        height: 128px;
+        font-size: 16px;
+        line-height: 2;
+    }
+    
+    .partner_btn {
+        width: 196px;
+        height: 56px;
+        margin: 22px 0px 15px 140px;
+        font-size: 16px;
+        line-height: 3.5;
+    }
+
+        
+/****************************************HOW IT WAS IN 2018**************************************/
+        
+    .event_1 {
+        width: 396px;
+        height: 12px;
+        margin: 100px auto 0px auto;
+        font-size: 20px;
+        line-height: 1.5;
+    }
+    
+    .event_2 {
+        width: 372px;
+        height: 12px;
+        margin: 150px auto 0px auto;
+        font-size: 17px;
+        line-height: 1.5;
+    }
+    
+    .presentation{
+        margin: 200px 0px 0px 100px;
+        width: 130px;
+        height: 86px;
+    }
+    
+    .presentation_circle {
+        width: 128px;
+        height: 128px;
+        margin: 190px 0px 0px 50px;
+    }
+    
+    .gallery_btn { 
+        width: 196px;
+        margin-top: 32px;
+    }
+      
+    .owl-carousel .item img{
+        margin-top: 100px;
+    }
+    
+    .owl-prev, .owl-next {
+        margin-top: 20px;
+    }
+    
+    .camera {
+        margin: 32px 0px 0px 775px;
+    }
+    
+    .camera_circle {
+        margin: 16px 0px 10px 785px;
+    }
+
+/************************FOOTER*************************************/
+
+   /********************************************************GRID CD**********************************************/
+    
+    @media (max-width: 540px)  {
+	/*******************************************FOR PHONES**********************************************************************/
+        .col-sm-1 {width: 8.33%;}
+        .col-sm-2 {width: 16.66%;}
+        .col-sm-3 {width: 25%;}
+        .col-sm-4 {width: 33.33%;}
+        .col-sm-5 {width: 41.66%;}
+        .col-sm-6 {width: 50%;}
+        .col-sm-7 {width: 58.33%;}
+        .col-sm-8 {width: 66.66%;}
+        .col-sm-9 {width: 75%;}
+        .col-sm-10 {width: 83.33%;}
+        .col-sm-11 {width: 91.66%;}
+        .col-sm-12 {width: 100%;}
+               
+/******************************HERO**********************/  
+    .heroline {
+        width: 80%;
+        margin-left: 30px;
+    } 
+    
+    .slogan {
+        margin-top: 115px;
+        height: 62px;
+    }
+           
+    .eventdate {
+        font-size: 15px;
+    }
+    
+    .herophoto {
+        height: 360px;
+    }
+        
+    .play_btn {
+        height: 87px;
+        margin-left: 140px;
+        top: 420px;
+    }
+        
+/*********************************TIMER*************************/     
+        
+    h1 {
+        font-size: 32px;
+        margin-top: 15px;
+    }
+             
+    #counter {
+        font-size: 28px;
+        letter-spacing: 3px;
+        line-height: 1.1;    
+    }
+        
+    .clock {
+        margin: 38px 0px 0px 100px;
+    }
+        
+    .clock_circle {
+        margin: 28px 0px 15px 180px;
+    }
+        
+   /***********************************FORM************************************/
+        
+    .formtext {  
+        width: 279px;
+        margin: 32px 0px 0px 50px;
+    }
+            
+    .mail {
+        margin: 17px 0px 0px 65px;
+    }
+        
+    .mail_circle {
+        margin: 10px 0px 0px 29px;
+    }
+        
+    .input {
+        width: 256px;
+        margin-left: 30px;
+    }
+        
+    #sendButton {
+        width: 259px;
+        margin-left: 30px;
+    }
+        
+    .check {
+        margin-top: 18px;
+    }
+        
+    .checkbox { 
+        margin-left: 30px;
+    }
+
+    .check_text {
+        height: auto;
+        font-size: 6px;
+        line-height: none;
+        margin-left: 30px;
+    }
+        
+        /***********************************************WHY IT'S WORTH**************************************/
+            
+    h2 {
+        font-size: 32px;
+    }
+        
+    .tick_one {
+        margin: 50px 0px 0px 10px;
+    }
+        
+    .worthphoto {
+        width: 296px;
+        margin: 80px 0px 0px 30px;
+    }
+        
+    .text1, .text2 {
+        width: 296px;
+    }
+        
+    .tick_two {
+        margin: 34px 0px 0px 10px;
+    }
+        
+    .worthphoto2 {
+        width: 296px;
+        margin: 64px 0px 0px 30px;
+    }
+        
+    .text3 {
+        width: 291px;
+        height: 96px;
+        margin: 24px auto 0px auto;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+        
+    .text4 {
+        width: 296px;
+        height: 128px;
+        margin: 20px auto 20px auto;
+        font-size: 14px;
+        line-height: 2.29;
+    }
+
+        /***********************************************SPEAKERS**************************************/
+        
+    h3 {
+        font-size: 32px;
+    }
+        
+    .speakertext1 {
+        width: 296px;
+        height: 192px;
+        margin: 48px auto 0px auto; 
+    }
+        
+    .speakertext2 {
+        width: 296px;
+        height: 64px;
+        margin: 32px auto 0px auto;
+    }
+        
+    .speaker_btn {
+        width: 296px;
+        margin: 32px 0px 0px 30px;
+    }
+        
+    .megaphone {
+        margin: 55px 0px 0px 240px;
+    }
+        
+    .megaphone_circle {
+        margin: 32px 0px 0px 260px;
+    }
+        
+/***************************************AGENDA***************************************/
+        
+/*I know that it all should be presented vertically but i left it like that because i think it's more readable*/
+        
+
+  /********************************************PARTNERS***************************************/
+        
+    .group_img { 
+        width: 156px;
+        height: 78px;
+    }
+        
+    .handshake {
+        height: 97px;
+        margin: 45px 0px 0px 50px;
+    }
+
+    .handshake_circle {
+        width: 128px;
+        height: 128px;
+        margin: 34px 0px 0px 10px;
+    }
+        
+    .partner_text1, .partner_text2 {
+        width: 296px;
+    }
+        
+    .partner_text1 {  
+        margin-left: 30px;   
+    }
+        
+    .partner_text2 {
+        margin: 24px 0px 0px 30px;
+    }
+        
+    .partner_btn {
+        width: 296px;
+        margin: 32px 0px 15px 30px;
+    }
+      
+/****************************************HOW IT WAS IN 2018**************************************/
+        
+    .event_1 {
+        width: 296px;
+        margin: 38px auto 0px auto;
+        font-size: 15px;
+    }
+        
+    .event_2 {
+        width: 272px;
+        margin: 0px auto 0px auto;
+        font-size: 14px;
+    }
+        
+    .presentation{
+        margin: 100px 0px 0px 60px;
+        width: 130px;
+        height: 86px;
+    }
+        
+    .presentation_circle {
+        margin: 90px 0px 0px 10px;
+    }
+        
+    .owl-carousel .item img{
+        margin-top: 250px;
+    }
+        
+    .owl-prev, .owl-next {
+        margin-top: 100px;
+    }
+        
+    .gallery_btn { 
+        width: 296px;
+    }
+        
+    .camera {
+        margin: 32px 0px 0px 277px;
+    }
+    
+    .camera_circle {
+        margin: 16px 40px 10px 290px;
+    }
+
+/************************FOOTER*************************************/
+
+    .footer {
+        height: 180px;
+    }     
